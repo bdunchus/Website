@@ -1,10 +1,10 @@
-    h1 {font-family: fantasy}
+    h1 {font-family: serif}
     h1 {width: 100%}
     h1 {padding:15px;}
     h1 {border-top: 12px solid navy}
     h1 {border-bottom: 12px solid navy}
     
-    h2 {font-family:fantasy}
+    h2 {font-family:serif}
    
     p {font-family:sans-serif}
     
@@ -30,8 +30,26 @@
     li a {display: block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 60px;
     text-decoration: none;}
 
     li a:hover {
     background-color: black;}
+
+
+    .topnav2 {
+    position: relative;
+    display: inline-block;}
+
+    .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;}
+
+    .topnav2:hover .dropdown-content {
+    display: block;}
+
