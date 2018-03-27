@@ -12,6 +12,10 @@
     
     body {background-color: aliceblue}
     
+
+    .loginfo {text-align: right}
+    .loginfo a {font-size: 15px}
+    
     a {font-size: 30px}
     a:link {color:navy}
     a:visited {color:navy}
@@ -23,8 +27,6 @@
     img:hover{width: 35%}
     img:hover{height: 35%}
 
-
-    .loginfo {text-align: right}
 
 
     ul {
