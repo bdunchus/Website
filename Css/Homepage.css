@@ -13,6 +13,10 @@
     body {background-color: aliceblue}
     
     legend {font-size:15px}
+    select {width: 30%}
+    input {width: 60%}
+
+    Fieldset {width: 40%}
 
     .loginfo {text-align: right}
     .loginfo a {font-size: 15px}
