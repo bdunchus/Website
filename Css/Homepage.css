@@ -12,6 +12,7 @@
     
     body {background-color: aliceblue}
     
+    legend {font-size:15px}
 
     .loginfo {text-align: right}
     .loginfo a {font-size: 15px}
@@ -63,6 +64,8 @@
 
     .topnav2:hover .dropdown-content {
     display: block;}
+
+
 
 
 
