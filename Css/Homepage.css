@@ -12,9 +12,10 @@
     
     body {background-color: aliceblue}
     
+    nav input   {width: 20&}
     legend {font-size:15px}
-    select {width: 30%}
-    input {width: 60%}
+    form select {width: 30%}
+    form input {width: 60%}
 
     Fieldset {width: 40%}
 
