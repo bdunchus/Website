@@ -75,7 +75,19 @@
     .topnav2:hover .dropdown-content {
     display: block;}
     
+     .topnav3 {
+    position: relative;
+    display: inline-block;}
+
+    .topnav3:hover .dropdown-content {
+    display: block;}
    
+.column button {padding: 1%}
+.column button {font-size: 15px}
+.column button {Color: black}
+.column button {Background-Color: aliceblue}
+
+
 
 
 
