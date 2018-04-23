@@ -4,7 +4,12 @@
     h1 {padding:15px;}
     h1 {border-top: 12px solid navy}
     h1 {border-bottom: 12px solid navy}
-    
+
+    .Mentor button{padding: 2%}
+    .Mentor button{font-size:20px}
+    .Mentor button{color:aliceblue}
+    .Mentor button{background-color:black}
+
     h2 {font-family:serif}
    
     p {font-family:sans-serif}
@@ -69,6 +74,9 @@
 
     .topnav2:hover .dropdown-content {
     display: block;}
+    
+   
+
 
 
 
