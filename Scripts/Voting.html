@@ -3,12 +3,15 @@
 <head>
 <meta charset="UTF-8"><title>
 Discover.html</title>
-</head>
-</html>
 
-<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+
+
+
 <link rel="stylesheet" type="text/css" href="../Css/Homepage.css">
 </head>
+
 
 <h1>Photography?</h1>
 
@@ -30,17 +33,17 @@ Discover.html</title>
     <br>
 
 <script>
-            (function() {
-                var cx = '002568312905807693810:v9cv6jza77q';
-                var gcse = document.createElement('script');
-                gcse.type = 'text/javascript';
-                gcse.async = true;
-                gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(gcse, s);
-                })();
-    </script>
-        <gcse:search></gcse:search>
+  (function() {
+    var cx = '002568312905807693810:wbbzl44nsay';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
         </div>
 
     <div class="topnav3">
@@ -53,12 +56,36 @@ Discover.html</title>
 
     <div class="row">
           <div class="column">
-                <h2>Animals</h2>
-                <img src="../Pictures/IMG_9504.jpg" alt="Image 7" width=200 height=200>
-                <h2>Squirrels</h2>
-                <img src="../Pictures/DSC_0451.jpg" alt="Image 8" width=200 height=200>
-                <h2>Sunsets</h2>
-                <img src="../Pictures/IMG_151j2.jpg" alt="Image 9" width=200 height=200>
+                <h2>Click on images to eliminate them. Your vote will be cast for the last image remaining.</h2>
+                <h3>Life on the Coast</h3>
+                <p>Entries...</p>
+                <img src="../Pictures/DSC_0071.jpg" alt="Malibu Coastline" width=200 height=200>
+                <img src="../Pictures/DSC_0408.jpg" alt="Surfer" width=200 height=200>
+                <img src="../Pictures/DSC_0481.jpg" alt="Items on chain on Coastline" width=200 height=200>
+           
+                <h3>Sunsets</h3>
+                <p>Entries...</p>
+                <img src="../Pictures/DSC_0133.jpg" alt="Image 5" width=200 height=200>
+                <img src="../Pictures/DSC_0098.jpg" alt="Image 4" width=200 height=200>
+                <img src="../Pictures/DSC_0296.jpg" alt="Image 4" width=200 height=200>
+            
+                <h3>Animals</h3>
+                <p>Entries...</p>
+                <img src="../Pictures/DSC_0454.jpg" alt="Image 6" width=200 height=200>
+                <img src="../Pictures/DSC_0466.jpg" alt="Image 4" width=200 height=200>
+                <img src="../Pictures/DSC_0689.jpg" alt="Image 4" width=200 height=200>
             </div>
     </div>
+
+    <script>
+    
+$(document).ready(function(){
+    $("img").click(function(){
+        $(this).hide();
+    });
+});
+    
+    </script> 
+    
+</html>
    
