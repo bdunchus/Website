@@ -87,6 +87,9 @@
 .column button {Color: black}
 .column button {Background-Color: aliceblue}
 
+.search     {width: 50%;
+    align-content: right}
+
 
 
 
